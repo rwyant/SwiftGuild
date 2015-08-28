@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xib" translatesAutoresizingMaskIntoConstraints="NO" id="Jgr-Qu-mCL">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftGuild App is licensed under a Creative Commons Attribution 4.0 International License." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OQ7-p1-WLL">
+                    <rect key="frame" x="8" y="426" width="464" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="OQ7-p1-WLL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Dey-7D-h75"/>
+                <constraint firstAttribute="bottom" secondItem="OQ7-p1-WLL" secondAttribute="bottom" constant="20" id="adt-dj-8om"/>
+                <constraint firstAttribute="bottom" secondItem="Jgr-Qu-mCL" secondAttribute="bottom" id="cFz-JW-Pac"/>
+                <constraint firstAttribute="trailing" secondItem="OQ7-p1-WLL" secondAttribute="trailing" constant="8" id="gby-EP-ZFo"/>
+                <constraint firstItem="Jgr-Qu-mCL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tV9-0D-Kxz"/>
+                <constraint firstAttribute="trailing" secondItem="Jgr-Qu-mCL" secondAttribute="trailing" id="vf1-jl-Va6"/>
+                <constraint firstItem="Jgr-Qu-mCL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yzf-PB-F0l"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xib" width="375" height="667"/>
+    </resources>
+</document>
