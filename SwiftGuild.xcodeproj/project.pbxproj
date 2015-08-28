@@ -31,12 +31,10 @@
 		85B2BAE91B84EE9D00737B5E /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2BAE71B84EE9D00737B5E /* SegmentedControl.swift */; };
 		85D8F2F51B84F4DC00F189F2 /* VenbotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F2F41B84F4DC00F189F2 /* VenbotViewController.swift */; };
 		85D8F3091B84F55200F189F2 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F2F61B84F55200F189F2 /* Alamofire.swift */; };
-		85D8F30A1B84F55200F189F2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D8F2F71B84F55200F189F2 /* Bolts.framework */; };
 		85D8F30B1B84F55200F189F2 /* ConferenceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F2F91B84F55200F189F2 /* ConferenceTableViewCell.swift */; };
 		85D8F30C1B84F55200F189F2 /* IndividualPlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F2FB1B84F55200F189F2 /* IndividualPlayerTableViewCell.swift */; };
 		85D8F30D1B84F55200F189F2 /* IndividualPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F2FC1B84F55200F189F2 /* IndividualPlayerViewController.swift */; };
 		85D8F30E1B84F55200F189F2 /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F2FD1B84F55200F189F2 /* Logic.swift */; };
-		85D8F30F1B84F55200F189F2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D8F2FE1B84F55200F189F2 /* Parse.framework */; };
 		85D8F3101B84F55200F189F2 /* PlayersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F3001B84F55200F189F2 /* PlayersTableViewCell.swift */; };
 		85D8F3111B84F55200F189F2 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F3011B84F55200F189F2 /* PlayersViewController.swift */; };
 		85D8F3121B84F55200F189F2 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8F3031B84F55200F189F2 /* SchoolTableViewCell.swift */; };
@@ -122,12 +120,10 @@
 		85B2BAEA1B84EEDC00737B5E /* Fontfabric - Nexa Rust Script B 00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Fontfabric - Nexa Rust Script B 00.otf"; path = "Cereal/Fontfabric - Nexa Rust Script B 00.otf"; sourceTree = "<group>"; };
 		85D8F2F41B84F4DC00F189F2 /* VenbotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VenbotViewController.swift; path = Venbot/VenbotViewController.swift; sourceTree = "<group>"; };
 		85D8F2F61B84F55200F189F2 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Venbot/Alamofire.swift; sourceTree = "<group>"; };
-		85D8F2F71B84F55200F189F2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Venbot/Bolts.framework; sourceTree = "<group>"; };
 		85D8F2F91B84F55200F189F2 /* ConferenceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceTableViewCell.swift; sourceTree = "<group>"; };
 		85D8F2FB1B84F55200F189F2 /* IndividualPlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualPlayerTableViewCell.swift; sourceTree = "<group>"; };
 		85D8F2FC1B84F55200F189F2 /* IndividualPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualPlayerViewController.swift; sourceTree = "<group>"; };
 		85D8F2FD1B84F55200F189F2 /* Logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logic.swift; path = Venbot/Logic.swift; sourceTree = "<group>"; };
-		85D8F2FE1B84F55200F189F2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Venbot/Parse.framework; sourceTree = "<group>"; };
 		85D8F3001B84F55200F189F2 /* PlayersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersTableViewCell.swift; sourceTree = "<group>"; };
 		85D8F3011B84F55200F189F2 /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		85D8F3031B84F55200F189F2 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
@@ -196,8 +192,6 @@
 				850AE7341B84F79D005475FF /* Security.framework in Frameworks */,
 				850AE7351B84F79D005475FF /* StoreKit.framework in Frameworks */,
 				850AE7361B84F79D005475FF /* SystemConfiguration.framework in Frameworks */,
-				85D8F30F1B84F55200F189F2 /* Parse.framework in Frameworks */,
-				85D8F30A1B84F55200F189F2 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,11 +219,9 @@
 				850AE72D1B84F79D005475FF /* StoreKit.framework */,
 				850AE72E1B84F79D005475FF /* SystemConfiguration.framework */,
 				85D8F2F61B84F55200F189F2 /* Alamofire.swift */,
-				85D8F2F71B84F55200F189F2 /* Bolts.framework */,
 				85D8F2F81B84F55200F189F2 /* Conference */,
 				85D8F2FA1B84F55200F189F2 /* IndividualPlayer */,
 				85D8F2FD1B84F55200F189F2 /* Logic.swift */,
-				85D8F2FE1B84F55200F189F2 /* Parse.framework */,
 				85D8F2FF1B84F55200F189F2 /* Players */,
 				85D8F3021B84F55200F189F2 /* School */,
 				85D8F3051B84F55200F189F2 /* SFSportsNight.ttf */,
